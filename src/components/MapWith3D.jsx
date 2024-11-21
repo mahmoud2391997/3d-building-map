@@ -17,6 +17,7 @@ const MapWith3D = () => {
         width={window.innerWidth}
         height={window.innerHeight}
         style={{ pointerEvents: "auto" }} // Disable interactions with the map
+        className="h-screen w-screen absolute"
       />
 
       {/* Three.js scene for the building */}

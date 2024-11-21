@@ -8,8 +8,13 @@ import CameraController from "./cameraController";
 const Building = () => {
   return (
     <Canvas
-      camera={{ position: [0, 15, 20], fov: 50 }}
-      style={{ height: "100vh" }}
+      camera={{ position: [0, 200, 150], fov: 50 }}
+      style={{
+        height: "100vh",
+        width: "100vw",
+        position: "absolute",
+        right: "1%",
+      }}
       className="h-screen absolute"
     >
       <ambientLight intensity={0.3} />
