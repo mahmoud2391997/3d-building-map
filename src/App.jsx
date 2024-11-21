@@ -1,10 +1,10 @@
-import MapWith3D from "./components/MapWith3D";
+import MapWithBuilding from "./modification/scene";
 
 const App = () => {
   return (
     <div className="p-2 mx-auto h-full">
       {/* <Map /> */}
-      <MapWith3D/>
+     <MapWithBuilding/>
     </div>
   );
 };
