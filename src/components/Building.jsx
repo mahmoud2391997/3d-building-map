@@ -8,10 +8,11 @@ import CameraController from "./cameraController";
 const Building = () => {
   return (
     <Canvas
-      camera={{ position: [0, 200, 150], fov: 50 }}
+    camera={{ position: [0, 15, 20], fov: 50 }}
+    
       style={{
         height: "100vh",
-        width: "100vw",
+        width: "50vw",
         position: "absolute",
         right: "1%",
       }}

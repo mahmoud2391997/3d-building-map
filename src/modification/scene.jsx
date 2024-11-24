@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import mapboxgl from 'mapbox-gl';
 import { Threebox } from '@mapbox/threebox';
 import * as THREE from 'three';
-import Building from '../components/Building'; // Your JSX building component
+import Building from '../src/components/Building'; // Your JSX building component
 
 const MAPBOX_TOKEN = import.meta.env.VITE_APP_MAPBOX_API_KEY;
 
